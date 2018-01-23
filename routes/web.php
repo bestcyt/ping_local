@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('pay','Pay\PingController@pay');
+Route::get('paysuccess','Pay\PingController@paysuccess');
+
